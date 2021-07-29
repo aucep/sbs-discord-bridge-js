@@ -16,8 +16,7 @@ start the bridge with `npm start`
 
 from Discord, use `/link <room>` and `/unlink`
 
-# todo
-\# means complete
+# todo (in no particular order)
 - [#] save config/cache on change
 - [#] discord command handling 
 - [#] sbs long polling
@@ -28,4 +27,11 @@ from Discord, use `/link <room>` and `/unlink`
 - [ ] markdown conversion
     - [ ] sbs -> discord
     - [ ] discord -> sbs
-- bot message support
+- [ ] bot message support
+- [ ] mirror message updates
+    - [ ] deletion
+        - [ ] ->discord
+        - [ ] ->sbs
+    - [ ] edits
+        - [ ] ->sbs
+        - [ ] ->discord (possible?)
