@@ -22,9 +22,10 @@ from Discord, use `/link <room>` and `/unlink`
 - [#] discord command handling 
 - [#] sbs long polling
 - [#] sbs avatar uploading
-- [ ] message sending
-    - [ ] sbs -> discord
+- [#] message sending
+    - [#] sbs -> discord
     - [#] discord -> sbs
 - [ ] markdown conversion
     - [ ] sbs -> discord
     - [ ] discord -> sbs
+- bot message support
