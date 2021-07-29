@@ -19,13 +19,13 @@ start the bridge with `npm start`
 from Discord, use `/link <room>` (and maybe `/unlink`)
 
 # todo (in no particular order)
-- [#] save config/cache on change
-- [#] discord command handling 
-- [#] sbs long polling
-- [#] sbs avatar uploading
-- [#] message sending
-    - [#] sbs -> discord
-    - [#] discord -> sbs
+- [x] save config/cache on change
+- [x] discord command handling 
+- [x] sbs long polling
+- [x] sbs avatar uploading
+- [x] message sending
+    - [x] sbs -> discord
+    - [x] discord -> sbs
 - [ ] markdown conversion
     - [ ] sbs -> discord
     - [ ] discord -> sbs
@@ -36,4 +36,4 @@ from Discord, use `/link <room>` (and maybe `/unlink`)
         - [ ] ->sbs
     - [ ] edits
         - [ ] ->sbs
-        - [ ] ->discord (possible?)
+        - [ ] ->discord (most recent message only?)
