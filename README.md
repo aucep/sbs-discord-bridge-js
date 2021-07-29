@@ -29,6 +29,7 @@ from Discord, use `/link <room>` (and maybe `/unlink`)
 - [ ] markdown conversion
     - [ ] sbs -> discord
     - [ ] discord -> sbs
+        - [ ] embed patch
 - [ ] bot message support
 - [ ] mirror message updates
     - [ ] deletion
