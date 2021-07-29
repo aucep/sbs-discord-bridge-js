@@ -182,7 +182,7 @@ class APIClient {
     async refreshAuth() {
         try {
             const { status, statusText, data } = await this.post('User/authenticate', {
-                expireSeconds: 60, // ten minutes, so we can test the automatic refresh accurately
+                expireSeconds: 0,
                 username: this.username,
                 password: this.password,
             });
