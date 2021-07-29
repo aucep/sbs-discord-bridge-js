@@ -2,19 +2,21 @@
 replacement/rewrite of [discord-sbs-bridge](https://github.com/ilovecherries/discord-sbs-bridge) by Cherry for the purpose of easy(tm) markdown conversion
 
 # running
-ensure your Discord bot has command and webhook management permissions in your server
+ensure your Discord bot has:
+- scopes:  `bot`, `applications.commands`
+- bot perms: `Manage Webhooks`
 
 create blank config files with `sh init-config.sh`
 
 fill out `config/auth.json`
 
-`npm install`
+install dependencies with `npm install`
 
 register commands with `npm run register`
 
 start the bridge with `npm start`
 
-from Discord, use `/link <room>` and `/unlink`
+from Discord, use `/link <room>` (and maybe `/unlink`)
 
 # todo (in no particular order)
 - [#] save config/cache on change
