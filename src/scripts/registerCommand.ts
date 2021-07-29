@@ -44,6 +44,6 @@ client.on('ready', async () => {
     process.exit();
 });
 
-let auth = readConf('auth');
+let auth = readConf('config/auth');
 
 client.login(auth.discordToken);
