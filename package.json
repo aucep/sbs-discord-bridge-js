@@ -1,0 +1,26 @@
+{
+  "name": "sbs-discord-bridge",
+  "version": "1.0.0",
+  "description": "a bridge between sbs rooms and discord channels",
+  "main": "build/index.js",
+  "bin": "build/index.js",
+  "scripts": {
+    "start": "tsc --build --verbose && node .",
+    "inspect": "tsc --build --verbose && node --inspect .",
+    "init": "sh init-config.sh",
+    "register": "tsc --build --verbose && node build/scripts/registerCommand.js",
+    "unregister": "tsc --build --verbose && node build/scripts/unregisterGuildCommand.js",
+    "beep": "cat beep"
+  },
+  "author": "auceps",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^16.3.3",
+    "axios": "^0.21.1",
+    "discord.js": "^13.0.0-dev.63ce065.1626653031",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
